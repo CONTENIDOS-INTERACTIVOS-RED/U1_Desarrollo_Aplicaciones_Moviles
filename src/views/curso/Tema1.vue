@@ -50,37 +50,39 @@
     // Bloque 6/19: texto
     h3(data-aos="fade-up") Lenguajes de desarrollo:
 
-    // Bloque 7/19: tarjetas-boton
-    div.row.justify-content-center.align-items-stretch.mb-5
-      div.col-lg-4.mb-4(data-aos="zoom-in-up")
-        div.bg-color-white.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/tema1/4.png"
-            alt=""
-            style="width: 90px"
-          )
-          h4.mb-2.text-center Java
-          p.mb-0.text-center El lenguaje tradicional en Android.
+    .bg-full-width.bg-gradiente-3.mb-5
+      .p-4.p-md-5
+        // Bloque 7/19: tarjetas-boton
+        div.row.justify-content-center.align-items-stretch.mb-5
+          div.col-lg-4.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/4.png"
+                alt=""
+                style="width: 90px"
+              )
+              h4.mb-2.text-center Java
+              p.mb-0.text-center El lenguaje tradicional en Android.
 
-      div.col-lg-4.mb-4(data-aos="zoom-in-up")
-        div.bg-color-white.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/tema1/5.png"
-            alt=""
-            style="width: 90px"
-          )
-          h4.mb-2.text-center Kotlin
-          p.mb-0.text-center Recomendado por Google desde 2019, por su sintaxis moderna y menor propensión a errores.
+          div.col-lg-4.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/5.png"
+                alt=""
+                style="width: 90px"
+              )
+              h4.mb-2.text-center Kotlin
+              p.mb-0.text-center Recomendado por Google desde 2019, por su sintaxis moderna y menor propensión a errores.
 
-      div.col-lg-4.mb-4(data-aos="zoom-in-up")
-        div.bg-color-white.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/tema1/6.png"
-            alt=""
-            style="width: 90px"
-          )
-          h4.mb-2.text-center IDE recomendado
-          p.mb-0.text-center Android Studio, basado en IntelliJ IDEA, permite desarrollo visual, pruebas automáticas, integración continua, análisis de rendimiento y emulación en múltiples dispositivos virtuales.
+          div.col-lg-4.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/6.png"
+                alt=""
+                style="width: 90px"
+              )
+              h4.mb-2.text-center IDE recomendado
+              p.mb-0.text-center Android Studio, basado en IntelliJ IDEA, permite desarrollo visual, pruebas automáticas, integración continua, análisis de rendimiento y emulación en múltiples dispositivos virtuales.
 
     // Bloque 8/19: bloque-img
     .bg-color-3.mb-5(data-aos="fade-up")
@@ -109,37 +111,39 @@
     // Bloque 11/19: texto
     h3(data-aos="fade-up") Lenguajes de desarrollo:
 
-    // Bloque 12/19: tarjetas-boton
-    div.row.justify-content-center.align-items-stretch.mb-5
-      div.col-lg-4.mb-4(data-aos="zoom-in-up")
-        div.bg-color-white.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/tema1/8.svg"
-            alt=""
-            style="width: 90px"
-          )
-          h3.mb-2.text-center Objective-C
-          p.mb-0.text-center Lenguaje clásico de Apple.
+    .bg-full-width.bg-gradiente-3.mb-5
+      .p-4.p-md-5
+        // Bloque 12/19: tarjetas-boton
+        div.row.justify-content-center.align-items-stretch.mb-5
+          div.col-lg-4.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/8.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h3.mb-2.text-center Objective-C
+              p.mb-0.text-center Lenguaje clásico de Apple.
 
-      div.col-lg-4.mb-4(data-aos="zoom-in-up")
-        div.bg-color-white.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/tema1/9.svg"
-            alt=""
-            style="width: 90px"
-          )
-          h3.mb-2.text-center Swift
-          p.mb-0.text-center Introducido en el 2014, moderno, seguro, con sintaxis más clara y recomendación oficial actual.
+          div.col-lg-4.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/9.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h3.mb-2.text-center Swift
+              p.mb-0.text-center Introducido en el 2014, moderno, seguro, con sintaxis más clara y recomendación oficial actual.
 
-      div.col-lg-4.mb-4(data-aos="zoom-in-up")
-        div.bg-color-white.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/tema1/10.svg"
-            alt=""
-            style="width: 90px"
-          )
-          h3.mb-2.text-center IDE recomendado
-          p.mb-0.text-center Xcode, que incluye diseño visual, simuladores de todos los modelos de iPhone/iPad, y herramientas como Instrumentos para análisis de rendimiento.
+          div.col-lg-4.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/10.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h3.mb-2.text-center IDE recomendado
+              p.mb-0.text-center Xcode, que incluye diseño visual, simuladores de todos los modelos de iPhone/iPad, y herramientas como Instrumentos para análisis de rendimiento.
 
     // Bloque 13/19: texto
     p(data-aos="fade-up") Conozcamos más sobre las diferencias entre estas plataformas:
