@@ -1,30 +1,30 @@
 ## BLOQUE: actividad
-¿Cuál es el propósito principal de una línea base en la gestión de configuración de software?
- A) Eliminar versiones obsoletas del sistema
- B) Establecer un punto de control autorizado para futuras modificaciones (x)
- C) Automatizar la entrega continua del producto
- D) Registrar el historial de cambios de los usuarios finales
+1. ¿Cuál es la principal diferencia entre una aplicación nativa y una multiplataforma?
+A. Las aplicaciones nativas funcionan solo en sistemas operativos de escritorio.
+B. Las aplicaciones multiplataforma se desarrollan con lenguajes exclusivos de Apple.
+C. Las aplicaciones nativas están diseñadas específicamente para un sistema operativo. (x)
+D. Las aplicaciones multiplataforma no requieren conexión a internet.
 
-¿Cuál de las siguientes opciones representa una actividad clave dentro de la gestión de cambios en un proyecto de software?
- A) Borrar versiones anteriores del código
- B) Desplegar automáticamente los cambios al entorno de producción
- C) Evaluar el impacto de una solicitud de cambio antes de su aprobación (X)
- D) Implementar nuevas funcionalidades sin documentación previa
+2. ¿Qué herramienta es comúnmente utilizada para emular dispositivos móviles durante el desarrollo?
+A. Visual Studio Code
+B. Android Emulator (x)
+C. Notepad++
+D. Adobe Illustrator
 
-¿Qué característica distingue a Jenkins como herramienta en el contexto de DevOps?
- A) Permite diseñar interfaces gráficas de usuario
- B) Facilita la integración continua mediante ejecución automática de jobs (x)
- C) Sustituye completamente a los sistemas de control de versiones
- D) Limita la colaboración entre equipos de desarrollo y operaciones
+3. ¿Qué componente contiene las herramientas necesarias para compilar y ejecutar una app móvil en Android?
+A. JDK
+B. SDK (x)
+C. IDE
+D. API
 
-¿Qué elemento debe estar presente antes de aprobar oficialmente una nueva línea base?
- A) Validación automatizada por Jenkins
- B) Revisión formal del producto o componente involucrado (x)
- C) Permiso directo del cliente final
- D) Eliminación de versiones anteriores del repositorio
+4. ¿Qué plataforma permite desarrollar apps para iOS usando el lenguaje Swift?
+A. Android Studio
+B. Xcode (x)
+C. Eclipse
+D. Visual Studio
 
-¿Cuál de las siguientes acciones representa una buena práctica en el mantenimiento de líneas base a lo largo del ciclo de vida del software?
- A) Reemplazar la línea base cada vez que se hace un commit
- B) Establecer líneas base solo al final del proyecto
- C) Controlar cambios mediante registros y auditorías (x)
- D) Permitir cambios sin aprobación previa para mantener agilidad
+5. ¿Cuál de las siguientes afirmaciones es verdadera sobre el ciclo de vida de una aplicación móvil?
+A. Las apps móviles no requieren gestión de estados.
+B. El ciclo de vida solo aplica a apps en segundo plano.
+C. El ciclo de vida permite controlar cómo se comporta una app al iniciarse, pausarse o cerrarse. (x)
+D. Solo las apps iOS tienen ciclo de vida.       

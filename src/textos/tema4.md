@@ -1,106 +1,78 @@
-# Tema 4: 4. Integración de pruebas automatizadas en pipelines CI/CD
+# Tema 4: 4. Ciclo de vida de una aplicación móvil
 
 <!-- 
 RUTA DE ASSETS: @/assets/curso/tema3/
 DISEÑO DE REFERENCIA: tema3.png
 -->
 
-## BLOQUE: video-fondo
+## Bloque 1/14: imagen-iconobloque-texto 4:8
+//assets: 1.png, 2.svg
 
-//video
-[ video-fondo](https://www.youtube.com/embed/fBEKxW5VjI4?si=KFBoMXI0Wpf3BhMM)
+//iconobloque
+El ciclo de vida de una aplicación móvil abarca todas las etapas desde la concepción de la idea hasta su eventual retiro del mercado. Comprender este proceso es esencial para desarrollar aplicaciones exitosas y sostenibles. 
 
-## BLOQUE: tabla
-
-Tabla 1. Tipos de pruebas en CI/CD
-
-Tipo de prueba
-Ejecutada en CI
-Ejecutada en CD
-
-Pruebas unitarias.
-✓
-Opcional
-
-Pruebas de integración.
-✓
-✓
-
-Pruebas funcionales.
-✓
-✓
-
-Pruebas E2E (UI).
-Opcional
-✓
-
-Pruebas de seguridad.
-Opcional
-✓
-
-## BLOQUE: texto
-
-## Ejemplo completo paso a paso de pruebas con CI/CD
-
-**Escenario.** Validación automatizada de un microservicio REST con Spring Boot, JUnit y Jenkins
-
-**Objetivo.** Integrar un flujo completo de pruebas unitarias y de integración para un servicio REST usando Jenkins como motor de CI.
-
-#### Paso 1. Crear el microservicio
-
-1. Desde start.spring.io, generar un proyecto con dependencias: Spring Web, Spring Boot DevTools, Spring Boot Starter Test.
-   
-2. Crear el servicio:
-
-    ``` Java
-    @RestController
-    @RequestMapping("/api")
-    public class SaludoController {
-        @GetMapping("/saludo")
-        public ResponseEntity<String> saludo(@RequestParam(defaultValue = "mundo") String nombre) {
-            return ResponseEntity.ok("Hola " + nombre);
-        }
-    }
-    ```
-
-#### Paso 2. Crear la clase de prueba JUnit
-
-//agregar imagen 1.png 
-Clase test para probar el servicio. Fuente:  Aguilar, J.2025
+//texto
+A continuación, se detallan las fases principales:
 
 
-#### Paso 3. Preparar pom.xml para pruebas
-//agregar imagen 2.png 
-POM para la prueba. Fuente: Aguilar, J. 2025
+## Bloque 2: infografia-1
+//assets: infografia1.svg
 
-#### Paso 4. Crear Jenkinsfile
-//agregar imagen 3.png 
-Archivo Jenkins. Fuente: Aguilar, J. 2025
+//puntos
+0% 0%
+Ideación y análisis de requisitos
+Esta fase inicial implica identificar una necesidad o problema que la aplicación buscará resolver. Se realiza un análisis de mercado, se definen los objetivos y se establecen los requisitos funcionales y no funcionales. Por ejemplo, al desarrollar una aplicación de seguimiento de hábitos, se determinarán funcionalidades como la creación de tareas, recordatorios y estadísticas de progreso.
+
+---
+10% 10%
+Diseño de la aplicación
+En esta etapa, se conceptualiza la arquitectura de la aplicación, incluyendo la interfaz de usuario (UI) y la experiencia de usuario (UX). Se crean prototipos y wireframes utilizando herramientas como Figma o Adobe XD. El objetivo es asegurar una navegación intuitiva y una estética atractiva que faciliten la interacción del usuario con la aplicación.
+
+---
+
+20% 20%
+Desarrollo
+Aquí se lleva a cabo la codificación de la aplicación, seleccionando el enfoque adecuado: nativo (Swift para iOS, Kotlin para Android) o multiplataforma (Flutter, React Native). Se implementan las funcionalidades definidas, se integran APIs y se configura la base de datos. Por ejemplo, una aplicación de comercio electrónico requerirá la integración de pasarelas de pago y sistemas de gestión de inventario.
+
+---
+
+30% 30%
+Pruebas y control de calidad
+Antes del lanzamiento, se realizan pruebas exhaustivas para identificar y corregir errores. Estas incluyen pruebas unitarias, de integración y de aceptación del usuario. El objetivo es el de garantizar que la aplicación funcione correctamente en diferentes dispositivos y escenarios, ofreciendo una experiencia de usuario óptima.
+
+---
+
+40% 40%
+Despliegue y publicación
+Una vez superadas las pruebas, la aplicación se publica en las tiendas correspondientes (App Store, Google Play). Este proceso implica cumplir con las políticas y requisitos de cada plataforma, como la presentación de capturas de pantalla, descripciones detalladas y la clasificación por edades. Además, se puede optar por un lanzamiento gradual para monitorear el rendimiento inicial y realizar ajustes si es necesario.
+
+---
+
+50% 50%
+Mantenimiento y actualizaciones
+Después del lanzamiento, es crucial monitorear el rendimiento de la aplicación, recopilar comentarios de los usuarios y realizar actualizaciones periódicas. Esto incluye la corrección de errores, la mejora de funcionalidades existentes y la incorporación de nuevas características para mantener la relevancia y competitividad de la aplicación en el mercado.
+
+---
+
+60% 60%
+Retiro o reinvención
+Finalmente, cuando la aplicación ya no cumple con los objetivos establecidos o ha sido reemplazada por soluciones más avanzadas, se considera su retiro del mercado. Alternativamente, se puede optar por una reinvención, adaptando la aplicación a nuevas necesidades o tecnologías emergentes.
 
 
-#### Paso 5. Crear el pipeline en Jenkins
-
-1. Abrir Jenkins > Nuevo elemento > Pipeline.
-2. En "Pipeline script", colocar el contenido de Jenkinsfile.
-3. Guardar y ejecutar.
-
-
-### Resultado esperado
-//lista-flechas
-    - Se clona el proyecto desde Git.
-    - Se compila y ejecutan las pruebas unitarias.
-    - Los resultados de las pruebas se visualizan en el dashboard de Jenkins.
+## Bloque 3: bg-full-icono-texto
+//assets: 3.svg
+//texto
+Comprender y gestionar adecuadamente cada una de estas etapas es fundamental para el éxito a largo plazo de una aplicación móvil. Este enfoque estructurado permite anticipar desafíos, optimizar recursos y ofrecer soluciones de alta calidad que satisfagan las expectativas de los usuarios.
 
 
-## BLOQUE: bg-full-icono-texto
-//assets: 4.svg
 
-Integrar pruebas automatizadas en los pipelines de CI/CD es una estrategia indispensable para sostener la calidad del software en contextos de entrega continua. Automatizar desde pruebas unitarias hasta pruebas end-to-end permite validar los sistemas de forma confiable, rápida y reproducible. Herramientas como Jenkins, GitHub Actions o GitLab CI ofrecen flexibilidad para que los equipos de desarrollo y QA mantengan productos de alta calidad con despliegues seguros y frecuentes.
+## BLOQUE 4: actividad
 
-## BLOQUE: actividad
+## BLOQUE 5: material-complementario
 
-## BLOQUE: material-complementario
 
-Piattini Velthuis, M. & Garzás Parra, J. (2015). Fábricas de software: experiencias, tecnologías y organización: ( ed.). RA-MA Editorial. https://elibro.net/es/lc/tecnologicadeloriente/titulos/106389 
+Robledo Sacristán, C. (2013). Programación en Android: ( ed.). Ministerio de Educación y Formación Profesional de España. https://elibro.net/es/lc/tecnologicadeloriente/titulos/49348 
 
-miw-upm.[@miwupm](2020, 15 de septiembre). Test con JUnit en práctica [Video]. YouTube. https://www.youtube.com/watch?v=Lnw1Ftp-x1g 
+Cernuda Menéndez, J. (2015). Creación de juegos y aplicaciones para Android: ( ed.). RA-MA Editorial. https://elibro.net/es/lc/tecnologicadeloriente/titulos/107211 
+
+

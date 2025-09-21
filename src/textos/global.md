@@ -2,57 +2,83 @@
 
 ## BLOQUE; glosario
 
-Aprobación de cambios:
-proceso mediante el cual se revisan y autorizan las solicitudes de cambios para asegurar que cumplen con los criterios establecidos antes de su implementación.
 
-Automatización de pipelines:
-uso de herramientas como Jenkins para crear procesos automáticos que integran, prueban y despliegan software de manera continua.
+Android
+Sistema operativo móvil desarrollado por Google, utilizado ampliamente en dispositivos móviles.
 
-Cambio:
-modificación o ajuste realizado a algún componente, documento o sistema dentro de un proyecto de software, que puede afectar su funcionamiento o alcance.
+iOS
+Sistema operativo móvil de Apple, exclusivo para dispositivos como el iPhone y el iPad.
 
-Definición de líneas base:
-proceso de establecer puntos de referencia oficiales en el desarrollo del software que marcan versiones aprobadas y estables de documentos, código o configuraciones.
+Aplicación nativa
+Aplicación desarrollada específicamente para una plataforma como Android o iOS.
 
-Gestión de cambios:
-conjunto de procedimientos para solicitar, evaluar, aprobar, implementar y registrar modificaciones en un proyecto de software.
+Aplicación multiplataforma
+Aplicación que puede ejecutarse en múltiples plataformas con una sola base de código.
 
-Herramientas de gestión de cambios:
-software especializado que facilita la administración, seguimiento y control de solicitudes de cambio, como Jenkins, Jira o ServiceNow.
+IDE
+Entorno de Desarrollo Integrado, herramienta para escribir, compilar y depurar código.
 
-Integración continua (CI):
-práctica de desarrollo donde el código se integra y prueba frecuentemente para detectar errores de forma temprana y mantener la calidad del software.
+SDK
+Kit de Desarrollo de Software que proporciona herramientas para crear aplicaciones para una plataforma específica.
 
-Jenkins:
-herramienta de automatización de código abierto utilizada para implementar procesos de integración y entrega continua en proyectos de software.
+Emulador
+Software que simula un dispositivo móvil para pruebas y desarrollo de aplicaciones.
 
-Línea base:
-versión formal y aprobada de un producto de trabajo que sirve como referencia para futuras modificaciones y seguimiento.
+Depuración
+Proceso de identificar y corregir errores en el código de una aplicación.
 
-Monitoreo de cambios:
-supervisión continua del estado y progreso de los cambios solicitados para asegurar su correcta implementación y registro.
+Compilación
+Proceso de convertir código fuente en una aplicación ejecutable.
 
-Pipeline:
-secuencia automatizada de tareas que se ejecutan en Jenkins para compilar, probar, y desplegar software de forma continua.
+UI
+Interfaz de Usuario, parte visual de la aplicación con la que el usuario interactúa.
 
-Solicitud de cambio:
-documento o registro formal que describe una propuesta para modificar un componente, funcionalidad o proceso dentro de un proyecto.
+UX
+Experiencia de Usuario, percepción general que tiene el usuario al interactuar con una aplicación.
+
+Ciclo de vida
+Etapas por las que pasa una aplicación desde su creación hasta su eliminación.
+
+Instalación
+Proceso de agregar una aplicación a un dispositivo móvil.
+
+Repositorio
+Espacio centralizado donde se almacena y gestiona el código fuente de una aplicación.
+
+Framework
+Conjunto de herramientas y bibliotecas para desarrollar aplicaciones de manera estructurada.
+
+Simulador
+Herramienta que imita el comportamiento de un dispositivo en un entorno de escritorio.
+
+Responsive
+Diseño que se adapta automáticamente a diferentes tamaños de pantalla.
+
+Compilador
+Programa que traduce código fuente a código máquina ejecutable.
+
+Hot Reload
+Función que permite ver cambios en el código en tiempo real sin recompilar toda la app.
+
+Widget
+Elemento de interfaz reutilizable usado en frameworks como Flutter para construir interfaces.
+
 
 
 
 ## BLOQUE: referencias
 
 
-Guillamón Morales, A. (2013). Manual desarrollo de elementos software para gestión de sistemas: ( ed.). Editorial CEP, S.L. https://elibro.net/es/lc/tecnologicadeloriente/titulos/50603 
 
-Pérez Martínez, E. (2015). Desarrollo de aplicaciones mediante el Framework de Spring: ( ed.). RA-MA Editorial. https://elibro.net/es/lc/tecnologicadeloriente/titulos/107207 
+Robledo Sacristán, C. (2013). Programación en Android: ( ed.). Ministerio de Educación y Formación Profesional de España. https://elibro.net/es/lc/tecnologicadeloriente/titulos/49348 
 
-Chacon, S., & Straub, B. (2014). Pro Git (2.ª ed.). Apress. https://git-scm.com/book/es/v2 
+Montero Miguel, R. (2014). Desarrollo de aplicaciones para Android: ( ed.). RA-MA Editorial. https://elibro.net/es/lc/tecnologicadeloriente/titulos/106426 
 
-Pérez Martínez, E. (2015). Desarrollo de aplicaciones mediante el Framework de Spring: ( ed.). RA-MA Editorial. https://elibro.net/es/lc/tecnologicadeloriente/titulos/107207   
+Robledo Sacristán, C. (2013). Programación en Android: ( ed.). Ministerio de Educación y Formación Profesional de España. https://elibro.net/es/lc/tecnologicadeloriente/titulos/49348 
 
-Smart, J. F. (2011). Jenkins: The Definitive Guide. Apress. https://archive.org/details/jenkins 
+Montero Miguel, R. (2014). Desarrollo de aplicaciones para Android: ( ed.). RA-MA Editorial. https://elibro.net/es/lc/tecnologicadeloriente/titulos/106426 
 
-Naik, P., & Naik, G. (2024). Mastering Jenkins Pipeline for Seamless Automation (From Development to Production). Shashwat Publication. https://www.researchgate.net/publication/382801641_Mastering_Jenkins_Pipeline_for_Seamless_Automation_From_Development_to_Production 
+Robledo Sacristán, C. (2013). Programación en Android: ( ed.). Ministerio de Educación y Formación Profesional de España. https://elibro.net/es/lc/tecnologicadeloriente/titulos/49348 
 
+Cernuda Menéndez, J. (2015). Creación de juegos y aplicaciones para Android: ( ed.). RA-MA Editorial. https://elibro.net/es/lc/tecnologicadeloriente/titulos/107211 
 

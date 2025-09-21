@@ -15,33 +15,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Gestión de cambios en el desarrollo de software',
+        titulo: 'Plataformas de desarrollo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo:
-              'Introducción a la gestión de cambios en el desarrollo de software',
+            titulo: 'Visión general de las plataformas móviles',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Tipos de cambios en proyectos de software',
+            titulo: 'Recomendación para el estudiante',
             hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Proceso de solicitud y evaluación de cambios',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Herramientas para la gestión de cambios',
-            hash: 't_1_4',
           },
         ],
       },
@@ -49,26 +36,25 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Definición de líneas base',
+        titulo: 'Diferencias entre aplicaciones nativas y multiplataforma',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo:
-              'Concepto y propósito de las líneas base en la gestión de configuración',
+            titulo: 'Aplicaciones nativas',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Tipos de líneas base en proyectos de software',
+            titulo: 'Aplicaciones multiplataforma',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Criterios para establecer una línea base',
+            titulo: 'Comparación técnica detallada, consideraciones y ejemplos',
             hash: 't_2_3',
           },
         ],
@@ -77,23 +63,35 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Uso de herramientas como Jenkins',
+        titulo: 'Herramientas de desarrollo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Introducción a Jenkins y su rol en la integración continua (CI/CD)',
+            titulo: 'IDEs - Entornos de Desarrollo Integrados',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Monitoreo, gestión y mejores prácticas en Jenkins',
+            titulo: 'SDKs - Kits de Desarrollo de Software',
             hash: 't_3_2',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Emuladores y simuladores',
+            hash: 't_3_3',
+          },
         ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Ciclo de vida de una aplicación móvil',
+        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'sintesis',
@@ -133,94 +131,134 @@ export default {
   referencias: [
     {
       referencia:
-        'Guillamón Morales, A. (2013). Guía práctica para elaborar planes de emergencia y simulacros: (1 ed.). Panamericana Formas e Impresos S.A.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/51873?page=1',
+        'Robledo Sacristán, C. (2013). Programación en Android: ( ed.). Ministerio de Educación y Formación Profesional de España.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/49348',
     },
     {
       referencia:
-        'Pérez Martínez, E. (2015). Documentos técnicos de instalaciones en la edificación. DTIE 20.01 Libro de edificio e instrucciones de funcionamiento y mantenimiento: (1 ed.). Asociación Técnica Española de Climatización y Refrigeración (ATECYR).',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/42354',
-    },
-    {
-      referencia: 'Chacon, S., & Straub, B. (2014). Pro Git. Apress.',
-      link: 'https://git-scm.com/book/en/v2',
+        'Montero Miguel, R. (2014). Desarrollo de aplicaciones para Android: ( ed.). RA-MA Editorial.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/106426',
     },
     {
       referencia:
-        "Smart, J. F. (2011). Jenkins: The Definitive Guide. O'Reilly Media.",
-      link: '',
+        'Robledo Sacristán, C. (2013). Programación en Android: ( ed.). Ministerio de Educación y Formación Profesional de España.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/49348',
     },
     {
       referencia:
-        'Naik, P., & Naik, G. (2024). DevOps with Jenkins X. Packt Publishing.',
-      link: '',
+        'Montero Miguel, R. (2014). Desarrollo de aplicaciones para Android: ( ed.). RA-MA Editorial.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/106426',
     },
     {
       referencia:
-        'Ruiz, M. G. (2023). Gestión de proyectos de software. Ediciones ENI.',
-      link: '',
+        'Robledo Sacristán, C. (2013). Programación en Android: ( ed.). Ministerio de Educación y Formación Profesional de España.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/49348',
+    },
+    {
+      referencia:
+        'Cernuda Menéndez, J. (2015). Creación de juegos y aplicaciones para Android: ( ed.). RA-MA Editorial.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/107211',
     },
   ],
   glosario: [
     {
-      termino: 'Aprobación de cambios',
+      termino: 'Android',
       significado:
-        'proceso mediante el cual se revisan y autorizan las solicitudes de cambios para asegurar que cumplen con los criterios establecidos antes de su implementación.',
+        'Sistema operativo móvil desarrollado por Google, utilizado ampliamente en dispositivos móviles.',
     },
     {
-      termino: 'Automatización de pipelines',
+      termino: 'iOS',
       significado:
-        'uso de herramientas como Jenkins para crear procesos automáticos que integran, prueban y despliegan software de manera continua.',
+        'Sistema operativo móvil de Apple, exclusivo para dispositivos como el iPhone y el iPad.',
     },
     {
-      termino: 'Cambio',
+      termino: 'Aplicación nativa',
       significado:
-        'modificación o ajuste realizado a algún componente, documento o sistema dentro de un proyecto de software, que puede afectar su funcionamiento o alcance.',
+        'Aplicación desarrollada específicamente para una plataforma como Android o iOS.',
     },
     {
-      termino: 'Definición de líneas base',
+      termino: 'Aplicación multiplataforma',
       significado:
-        'proceso de establecer puntos de referencia oficiales en el desarrollo del software que marcan versiones aprobadas y estables de documentos, código o configuraciones.',
+        'Aplicación que puede ejecutarse en múltiples plataformas con una sola base de código.',
     },
     {
-      termino: 'Gestión de cambios',
+      termino: 'IDE',
       significado:
-        'conjunto de procedimientos para solicitar, evaluar, aprobar, implementar y registrar modificaciones en un proyecto de software.',
+        'Entorno de Desarrollo Integrado, herramienta para escribir, compilar y depurar código.',
     },
     {
-      termino: 'Herramientas de gestión de cambios',
+      termino: 'SDK',
       significado:
-        'software especializado que facilita la administración, seguimiento y control de solicitudes de cambio, como Jenkins, Jira o ServiceNow.',
+        'Kit de Desarrollo de Software que proporciona herramientas para crear aplicaciones para una plataforma específica.',
     },
     {
-      termino: 'Integración continua (CI)',
+      termino: 'Emulador',
       significado:
-        'práctica de desarrollo donde el código se integra y prueba frecuentemente para detectar errores de forma temprana y mantener la calidad del software.',
+        'Software que simula un dispositivo móvil para pruebas y desarrollo de aplicaciones.',
     },
     {
-      termino: 'Jenkins',
+      termino: 'Depuración',
       significado:
-        'herramienta de automatización de código abierto utilizada para implementar procesos de integración y entrega continua en proyectos de software.',
+        'Proceso de identificar y corregir errores en el código de una aplicación.',
     },
     {
-      termino: 'Línea base',
+      termino: 'Compilación',
       significado:
-        'versión formal y aprobada de un producto de trabajo que sirve como referencia para futuras modificaciones y seguimiento.',
+        'Proceso de convertir código fuente en una aplicación ejecutable.',
     },
     {
-      termino: 'Monitoreo de cambios',
+      termino: 'UI',
       significado:
-        'supervisión continua del estado y progreso de los cambios solicitados para asegurar su correcta implementación y registro.',
+        'Interfaz de Usuario, parte visual de la aplicación con la que el usuario interactúa.',
     },
     {
-      termino: 'Pipeline',
+      termino: 'UX',
       significado:
-        'secuencia automatizada de tareas que se ejecutan en Jenkins para compilar, probar, y desplegar software de forma continua.',
+        'Experiencia de Usuario, percepción general que tiene el usuario al interactuar con una aplicación.',
     },
     {
-      termino: 'Solicitud de cambio',
+      termino: 'Ciclo de vida',
       significado:
-        'documento o registro formal que describe una propuesta para modificar un componente, funcionalidad o proceso dentro de un proyecto.',
+        'Etapas por las que pasa una aplicación desde su creación hasta su eliminación.',
+    },
+    {
+      termino: 'Instalación',
+      significado: 'Proceso de agregar una aplicación a un dispositivo móvil.',
+    },
+    {
+      termino: 'Repositorio',
+      significado:
+        'Espacio centralizado donde se almacena y gestiona el código fuente de una aplicación.',
+    },
+    {
+      termino: 'Framework',
+      significado:
+        'Conjunto de herramientas y bibliotecas para desarrollar aplicaciones de manera estructurada.',
+    },
+    {
+      termino: 'Simulador',
+      significado:
+        'Herramienta que imita el comportamiento de un dispositivo en un entorno de escritorio.',
+    },
+    {
+      termino: 'Responsive',
+      significado:
+        'Diseño que se adapta automáticamente a diferentes tamaños de pantalla.',
+    },
+    {
+      termino: 'Compilador',
+      significado:
+        'Programa que traduce código fuente a código máquina ejecutable.',
+    },
+    {
+      termino: 'Hot Reload',
+      significado:
+        'Función que permite ver cambios en el código en tiempo real sin recompilar toda la app.',
+    },
+    {
+      termino: 'Widget',
+      significado:
+        'Elemento de interfaz reutilizable usado en frameworks como Flutter para construir interfaces.',
     },
   ],
 }

@@ -1,4 +1,4 @@
-# Tema 3: 3. Aplicación de normas ISO 9001 e ISO/IEC 25010
+# Tema 3: 3. Herramientas de desarrollo
 
 
 
@@ -7,243 +7,147 @@ RUTA DE ASSETS: @/assets/curso/tema3/
 DISEÑO DE REFERENCIA: tema3.png
 -->
 
-## BLOQUE: iconobloque
-//assets: 1.svg
 
-//iconobloque 4
-En un mundo digital en constante transformación, el desarrollo de software enfrenta exigencias crecientes de calidad, trazabilidad, seguridad y satisfacción del cliente. Ante estas demandas, las normas internacionales de calidad, y particularmente la ISO 9001, constituyen una herramienta clave para garantizar que los procesos de desarrollo, prueba y entrega se realicen bajo principios verificables de excelencia operativa. 
+## Bloque 1: imagen-texto-iconobloque 4:8
+//assets: 1.png
+//texto
+El desarrollo de aplicaciones móviles no solo depende del conocimiento de lenguajes de programación o principios de diseño, sino también del dominio de herramientas especializadas que permiten convertir ideas en soluciones funcionales. Este conjunto de herramientas está compuesto principalmente por los IDEs (Entornos de Desarrollo Integrados), los SDKs (Kits de Desarrollo de Software) y los emuladores o simuladores de dispositivos.
+//iconobloque
+Este tema tiene como objetivo presentar y analizar las herramientas más relevantes y ampliamente utilizadas en el proceso de desarrollo móvil, clasificándolas, según su función, su grado de integración con las plataformas móviles y su aplicabilidad en entornos nativos y multiplataforma. El propósito final es que el estudiante comprenda cómo estas herramientas se interrelacionan para conformar un ecosistema técnico robusto y eficiente.
 
+## Bloque 2: titulo-segundo
+3.1 IDEs - Entornos de Desarrollo Integrados
 
-## BLOQUE: color-texto-imagen
-//assets: 3.png
+## Bloque 3: color-texto-imagen
+//assets: 2.png
+//color 1
+Los IDEs son herramientas esenciales para cualquier desarrollador, dado que proporcionan un entorno unificado para escribir, compilar, depurar y ejecutar el código de una aplicación. Incorporan funciones como resaltado de sintaxis, depuración paso a paso, gestión de proyectos y análisis estático del código.
+//texto
+IDEs más utilizados en desarrollo móvil:
 
-//color 12
-En proyectos ágiles y de integración continua, los scripts de prueba permiten validar rápidamente si una funcionalidad nueva ha roto alguna parte del sistema existente (pruebas de regresión), asegurando la estabilidad de las versiones liberadas. Por ello, dominar el desarrollo de scripts no solo implica conocer la sintaxis de Selenium o JUnit, sino entender profundamente cómo estructurar, diseñar, mantener y ejecutar scripts eficaces y escalables.
+## Bloque 4: tabsc
+//assets: 3.png, 4.png, 5.png
 
-## BLOQUE:
+Android Studio
+Es el IDE oficial para el desarrollo en Android, basado en IntelliJ IDEA. Ofrece soporte completo para Kotlin y Java, integración con el SDK de Android, emuladores incorporados y un editor visual de interfaces. Permite compilar, ejecutar y probar aplicaciones en distintos dispositivos virtuales gracias a su sistema AVD (Android Virtual Device).
+Ventajas claves:
+  //lista-flechas
+  - Herramientas integradas para el diseño UI (Jetpack Compose y XML).
+  - Depuración avanzada con Logcat y herramientas de profiling.
+  - Integración con Firebase, Git y Gradle.
 
-ISO 9001 no es una norma técnica exclusiva del sector de software, sino un marco transversal que establece los requisitos para la implementación de un Sistema de Gestión de la Calidad (SGC), aplicable a cualquier tipo de organización. Sin embargo, cuando se adopta en el contexto del desarrollo de software, esta norma permite establecer procesos estandarizados, documentados, auditables y orientados a la mejora continua, especialmente en lo que respecta al aseguramiento de la calidad del producto final.
 
-//color
-    **¿Qué es la norma ISO 9001?**
-    La ISO 9001:2015, es una norma internacional publicada por la Organización Internacional de Normalización (ISO), que define los requisitos para un sistema de gestión de calidad eficaz, centrado en la satisfacción del cliente, el cumplimiento de requisitos y la mejora continua de los procesos.
-    Es una de las normas más reconocidas y utilizadas en el mundo, con certificaciones activas en más de 170 países. Su enfoque basado en procesos y su estructura modular (conocida como HLS – High Level Structure), permite su integración con otros estándares (ISO 14001, ISO 27001, etc.).
+Xcode
+IDE exclusivo para plataformas Apple (iOS, iPadOS, macOS, watchOS, tvOS). Soporta Swift y Objective-C, e incluye un simulador de dispositivos Apple. Integra herramientas para el diseño de interfaces mediante Interface Builder y storyboard, además de funcionalidades de prueba y publicación en App Store.
+Ventajas claves:
+  //lista-flechas
+  - Integración directa con App Store Connect.
+  - Simuladores de alta fidelidad.
+  - Editor visual con previews de SwiftUI en tiempo real.
 
-## BLOQUE: titulo-segundo
-3.1 Aplicación de ISO 9001 en desarrollo y pruebas de software
-Aunque la norma es genérica, sus principios pueden ser plenamente adoptados por organizaciones de desarrollo de software. Algunas áreas donde ISO 9001 aporta gran valor son:
 
-## BLOQUE: tabla
+Visual Studio
+Relevante para el desarrollo multiplataforma, especialmente con Xamarin y .NET MAUI. Soporta C#, F#, y Visual Basic. Ofrece un entorno estable para desarrollo móvil y de escritorio, ideal para quienes provienen del ecosistema Microsoft.
+Ventajas claves:
+  //lista-flechas
+  - Integración con Azure DevOps.
+  - Soporte de proyectos compartidos para múltiples plataformas.
+  - Buen rendimiento en proyectos empresariales grandes.
 
-Tabla 4. Áreas de aplicación
 
-Área de aplicación
-Ejemplo de alineación con ISO 9001
+## Bloque 5: titulo-segundo
+3.2 SDKs - Kits de Desarrollo de Software
 
-**Gestión de requisitos del cliente.**
-Documentación de historias de usuario, matrices de trazabilidad.
+## Bloque 6: texto-imagen
+//assets: 6.png
+//texto
+El SDK es el conjunto de herramientas, bibliotecas y documentación, necesarias para construir aplicaciones en una plataforma específica. Sin un SDK, un IDE no podría interactuar con las APIs del sistema operativo, ni compilar adecuadamente.
 
-**Control de procesos.**
-Definición formal de flujos de pruebas, revisión de código, CI/CD.
+SDKs más relevantes:
 
-**Gestión documental.**
-Versionado de artefactos, control de scripts, bitácoras de pruebas.
+## Bloque 7: slyder-a
+//assets: 7.png, 8.png, 9.png, 10.png
 
-**Evaluación de desempeño.**
-Indicadores de defectos, cobertura, tiempos de respuesta.
+Android SDK
+Incluye compiladores, emuladores, herramientas de línea de comandos, y bibliotecas para acceder a las funcionalidades de Android. Es indispensable para Android Studio y otros entornos como Flutter.
+Componentes principales:
+  //lista-flechas
+  - adb (Android Debug Bridge): permite comunicación entre el dispositivo y el entorno de desarrollo.
+  - sdkmanager: herramienta para instalar y actualizar paquetes del SDK.
+  - avdmanager: permite crear dispositivos virtuales Android.
 
-**Mejora continua.**
-Retrospectivas ágiles + acciones correctivas basadas en datos.
 
-## BLOQUE
+iOS SDK (parte de Xcode)
+Proporciona herramientas y bibliotecas necesarias para el desarrollo en dispositivos Apple. Incluye APIs para interfaces gráficas (UIKit, SwiftUI), sensores, red, acceso a hardware y servicios de Apple, como HealthKit o ARKit.
+Componentes claves:
+  //lista-flechas
+  - Simulator: simula dispositivos Apple con distintas versiones de iOS.
+  - Interface Builder: permite construir interfaces gráficas visualmente.
+  - LLVM/Clang: conjunto de herramientas de compilación.
 
-**Ejemplo.** Un equipo DevOps puede implementar ISO 9001 asegurando la trazabilidad de cada despliegue a través de pipelines validados, con evidencia de pruebas automatizadas, control de calidad de código y gestión de cambios bajo procedimientos documentados.
 
+Flutter SDK
+Este SDK, junto con el lenguaje Dart, permite desarrollar interfaces altamente personalizadas. Incluye su propio motor de renderizado y herramientas de línea de comandos (flutter doctor, flutter run, etc.), que verifican la instalación y lanzan proyectos.
 
-## BLOQUE: titulo-segundo
-3.2 Principios de gestión de calidad en ISO 9001
-La norma se basa en siete principios fundamentales que guían la implementación del SGC en cualquier contexto, incluyendo el desarrollo de software:
 
-## BLOQUE: tabla
+React Native CLI + Expo SDK
+React Native permite el desarrollo en JavaScript usando componentes nativos. Con Expo, se simplifica el acceso a APIs del dispositivo (cámara, GPS, almacenamiento). El SDK de Expo incluye una app móvil para pruebas instantáneas.
 
-Tabla 5. Principios fundamentales
+## Bloque 8: titulo-segundo
+3.3 Emuladores y simuladores
 
-Principio
-Aplicación práctica en software
+## Bloque 9: texto-imagen
+//assets: 11.svg
+//texto
+Estas herramientas permiten ejecutar y probar aplicaciones en una computadora sin necesidad de un dispositivo físico, lo cual es clave para el desarrollo iterativo y la depuración rápida.
+Diferencias conceptuales:
 
-**Enfoque al cliente.**
-Priorización de funcionalidades, según valor para el usuario final.
+## Bloque 10: tabla
 
-**Liderazgo.**
-Rol del Scrum Master o líder técnico, para promover cultura de calidad.
+Tabla 4. Diferencias conceptuales
 
-**Compromiso de las personas.**
-Empoderamiento del equipo QA, participación en decisiones de mejora.
+Emulador
+Simulador
 
-**Enfoque basado en procesos.**
-Mapeo de procesos de testing, automatización, gestión de releases.
+Replica hardware y software.
+Solo replica el software (interfaz).
 
-**Mejora continua.**
-Integración del ciclo PDCA en las retrospectivas y post-mortems.
+Más preciso, pero más pesado.
+Más ligero, pero menos realista.
 
-**Toma de decisiones basada en evidencias.**
-Uso de métricas de desempeño para orientar el backlog de calidad.
+Android Studio (AVD).
+Xcode (iOS Simulator).
 
-**Gestión de relaciones.**
-Alineación entre desarrolladores, testers, stakeholders y clientes.
+## Bloque 11: texto
+Herramientas destacadas:
 
-## BLOQUE: titulo-segundo
-3.3 Estructura de alto nivel (HLS) de la norma ISO 9001
-La ISO 9001:2015 presenta una estructura de 10 capítulos. Los capítulos del 4 al 10 contienen los requisitos que deben ser implementados para obtener la certificación.
+## Bloque 12: tarjetas-boton
+//assets: 12.png, 13.png, 14.png
+//tarjetas
+Android Emulator (AVD)
+Permite simular decenas de dispositivos con distintas resoluciones, versiones de Android y características. Se pueden activar sensores como GPS, acelerómetro, cámara o red simulada.
 
-## BLOQUE: tabla
 
-Tabla 6. Capítulos 4 a 10
+iOS Simulator
+Integrado en Xcode, simula dispositivos Apple desde iPhone 8 hasta iPhone 15 Pro. Incluye herramientas para simular llamadas, notificaciones, rotaciones, accesos biométricos, entre otros.
 
-Capítulo
-Contenido
-Aplicación al software
 
-4
-Contexto de la organización.
-Identificación de partes interesadas y necesidades del cliente.
+Genymotion
+Emulador basado en VirtualBox, ideal para testing en Android. Más rápido que AVD en algunas configuraciones, y con soporte para emulación en la nube.
 
-5
-Liderazgo.
-Compromiso de la alta dirección con la calidad del producto.
+## Bloque 13: texto-color-imagen
+//assets: 13.png
 
-6
-Planificación.
-Gestión de riesgos técnicos, planificación de versiones y releases.
+//texto
+Ejemplo. El dominio de herramientas como los IDEs, SDKs y emuladores, no solo es un requisito técnico para desarrollar aplicaciones móviles funcionales, sino también un reflejo de la profesionalización del proceso de desarrollo. Estas herramientas permiten realizar pruebas sin depender de dispositivos físicos, automatizar procesos, mejorar la productividad y reducir errores.
 
-7
-Apoyo (recursos, competencias, información documentada).
-Formación en QA, herramientas de testing, gestión del conocimiento.
+//color 1
+Asimismo, en un entorno laboral competitivo y cambiante, saber configurar y personalizar estas herramientas, se convierte en una ventaja estratégica. Por ello, en este curso se promueve una aproximación práctica y reflexiva al uso de estas herramientas, motivando a los estudiantes a experimentar, comparar entornos y adoptar aquellas combinaciones que mejor se adapten a sus necesidades y proyectos.
 
-8
-Operación.
-Control de cambios, ejecución de pruebas, entrega y despliegue.
 
-9
-Evaluación del desempeño.
-Indicadores de calidad, auditorías internas, revisiones de código.
-
-10
-Mejora.
-Acciones correctivas, lecciones aprendidas, optimización de procesos.
-
-## BLOQUE
-
-**Ejemplo aplicado.** La cláusula 8 (Operación) se implementa en desarrollo de software documentando el procedimiento de validación previa a despliegue, incluyendo revisión de código, pruebas automatizadas, pruebas exploratorias y validación con cliente.
-
-## BLOQUE: titulo-segundo
-3.4 Ruta estructurada para la implementación
-La implementación de un sistema de gestión de calidad bajo la norma ISO 9001 en entornos de desarrollo de software requiere una planificación cuidadosa y una adaptación contextualizada a las particularidades del ciclo de vida del producto digital.
-
-## BLOQUE: anexo-img
-//assets: 5.png
-
-### Ruta estructurada para la implementación 
-En el PDF Ruta estructurada para la implementación, se describe un proceso dividido en seis etapas clave que guían desde el análisis del contexto organizacional hasta la mejora continua. Este enfoque progresivo permite establecer una base sólida para la estandarización, trazabilidad y optimización de los procesos técnicos y de calidad en proyectos de software.
-
-Anexo_4.pdf
-
-## BLOQUE: titulo-segundo
-3.5 Aplicación práctica de las cláusulas ISO 9001 en QA
-La norma ISO 9001:2015 estructura sus requisitos fundamentales entre los capítulos 4 al 10. A continuación, se presenta cómo cada uno puede traducirse en prácticas específicas dentro del equipo de pruebas y control de calidad (QA).
-
-## BLOQUE: acordeon 10
-
-
-Cláusula 4
-    **Contexto de la organización**
-    
-    **Aplicación en QA:**
-    //lista-flechas
-    - Documentar los tipos de pruebas que se requieren, según tipo de cliente o tipo de producto (móvil, web, API).
-    - Identificar restricciones del entorno (tiempo de entrega, ambientes controlados, plataformas).
-    - Considerar normas técnicas adicionales (por ejemplo, accesibilidad digital o regulación de datos personales).
-
-    Ejemplo. Un sistema de salud debe cumplir con pruebas específicas de integridad de datos e interoperabilidad conforme a normativas gubernamentales.
-
----
-
-Cláusula 5
-    **Liderazgo**
-    
-    **Aplicación en QA:**
-    //lista-flechas
-    - La gerencia debe comprometerse activamente con los procesos de calidad.
-    - Designar un responsable del sistema de gestión de calidad con funciones explícitas.
-    - Apoyar con recursos humanos y tecnológicos adecuados (automatizadores, licencias de herramientas de testing).
-
-    Caso aplicado. El CTO de una startup asigna presupuesto para la adquisición de licencias de TestRail y capacitación en Cypress para fortalecer los procesos QA.
-
----
-
-Cláusula 6
-    **Planificación**
-    
-    **Aplicación en QA:**
-    //lista-flechas
-    - Identificar y documentar riesgos asociados al aseguramiento de calidad (ausencia de pruebas de regresión automatizadas).
-    - Establecer objetivos concretos: reducir defectos post-release en un 40 % en 6 meses.
-
-    **Herramienta útil.** Matriz de riesgos QA con impacto, probabilidad y controles proactivos.
-
----
-
-Cláusula 7
-    **Apoyo**
-
-    **Aplicación en QA:**
-    //lista-flechas
-    - Asegurar competencias del equipo (formaciones, certificaciones ISTQB, experiencia técnica).
-    - Gestionar infraestructura: entornos de prueba, herramientas CI/CD, repositorios de evidencias.
-    - Documentación: plan de calidad, criterios de aceptación, checklist de pruebas.
-    
-    **Ejemplo real.** Un equipo QUE documenta sus buenas prácticas en Confluence y mantiene actualizada su wiki de criterios por tipo de prueba (funcional, exploratoria, regresión).
-
----
-
-Cláusula 8
-    **Operación**
-
-    **Aplicación en QA:**
-    //lista-flechas
-    - Establecer flujos claros para la ejecución de pruebas: desde la recepción de requisitos hasta el cierre de defectos.
-    - Mantener trazabilidad entre historias de usuario, pruebas, resultados y validación.
-    - Controlar cambios y versionado de scripts automatizados.
-    
-    **Ejemplo técnico.** Integración de pruebas automatizadas en cada commit usando GitLab CI con reportes automáticos hacia Jira.
-
----
-
-Cláusula 9
-    **Evaluación del desempeño**
-
-    **Aplicación en QA:**
-    //lista-flechas
-    - Implementar indicadores claves como: tiempo medio de resolución de defectos, tasa de rechazo en QA, cobertura de pruebas.
-    - Realizar auditorías internas periódicas de cumplimiento de procesos QA.
-    - Analizar feedback del cliente o usuario final post-release.
-
----
-
-Cláusula 10
-    **Mejora**
-
-    **Aplicación en QA:**
-    //lista-flechas
-    - Establecer mecanismos para identificar no conformidades y aplicar acciones correctivas (revisión de casos de prueba defectuosos, revisión del proceso de revisión de código).
-    - Planificar mejoras tras cada retrospectiva técnica.
-    
-    **Caso práctico.** Al identificar que las pruebas de seguridad no estaban siendo ejecutadas antes del release, el equipo implementa una acción correctiva: agregar validaciones automáticas de OWASP ZAP en cada pipeline de despliegue.
-
-## BLOQUE: actividad
 
 ## BLOQUE: bloque-material-complementario
 
-Piattini Velthuis, M. & Garzás Parra, J. (2015). Fábricas de software: experiencias, tecnologías y organización: ( ed.). RA-MA Editorial. https://elibro.net/es/lc/tecnologicadeloriente/titulos/106389 
+Cernuda Menéndez, J. (2015). Creación de juegos y aplicaciones para Android: ( ed.). RA-MA Editorial. https://elibro.net/es/lc/tecnologicadeloriente/titulos/107211
 
-miw-upm.[@miwupm](2020, 15 de septiembre). Test con JUnit en práctica [Video]. YouTube. https://www.youtube.com/watch?v=Lnw1Ftp-x1g 
+DevExpert - Programación Android y Kotlin. (2023, 28 de septiembre). Retrofit y Kotlin: La Guía Definitiva para Conectar tu App con APIs [Actualizado 2023] [Video]. YouTube. https://www.youtube.com/watch?v=2_DnhfQrwXQ 
